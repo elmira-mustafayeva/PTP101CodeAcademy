@@ -1,0 +1,23 @@
+.yellow-box {
+    background-color: yellow;
+}
+.cod {
+    color: red;
+    border: 3px solid purple;
+}
+.blue{
+    background-color: rgb(10, 111, 173);
+}
+.green{
+    background-color: green;
+
+}
+.red{
+    color: red;
+}
+.link-green{
+   background-color: yellow;
+}
+.link-blue{
+color: rgb(18, 125, 201);
+}

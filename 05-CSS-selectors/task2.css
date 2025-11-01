@@ -1,0 +1,15 @@
+.text-font {
+ font-family:'Times New Roman', Times, serif
+}
+
+.bigtext{
+    color: blue;
+}
+
+.mini-text{
+    font-size: 30px;
+}
+.text{
+    background: blue;
+    color: white;
+}
