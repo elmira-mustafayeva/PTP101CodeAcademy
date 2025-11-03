@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section.bb{
+    border: 2px solid;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+#big{
+    background-image: url(../image/big.jpeg);
+   
+}
+#folder{
+    background-image: url(../image/folder-img.jpeg);
+}
+
+#small{
+    background-image: url(../image/code.png);
+}
+/* }
+#gradient{
+    background-image:
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
