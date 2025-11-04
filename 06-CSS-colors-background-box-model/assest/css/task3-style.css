@@ -23,10 +23,10 @@ section.bb{
 #small{
     background-image: url(../image/code.png);
 }
-/* }
+
 #gradient{
-    background-image:
+    background-image:linear-gradient(to right bottom,orange,green,blue,red);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-} */
+}

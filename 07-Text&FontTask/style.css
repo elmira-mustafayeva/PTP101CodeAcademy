@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', Arial, Georgia;
+    background-color: #f4f4f4;
+    color: #222;
+    padding: 10px;
+}
+.blog-header{
+  font-family: monospace;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 28px;
+}
+.intro-header{
+  font-family: sans-serif;
+  font-variant: small-caps;
+  font-size: 22px;
+    
+}
+.blog-paragraph-first{
+  font-style: normal;
+  line-height: 2.0;
+  text-indent: 40px;
+}
+.blog-paragraph-second{
+  text-align: center;
+  font-style: italic;
+}
+.blog-paragraph-third{
+  text-align: right;
+  letter-spacing: 2px;
+  word-spacing: 6px;
+  font-style: normal;
+}
