@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+header {
+  background-color: #1e1e1e;
+  padding: 20px;
+}
+
+.header-content {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border: 1px solid blue;
+    background-image:url('https://de.dreamstime.com/news-hintergrund-globale-landkarte-und-globus-f%C3%BCr-internationale-nachrichten-medien-weltgeschehen-technologie-sendung-im-image299930474');
+
+}
+.title h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.title p {
+  
+  margin: 5px 0 0;
+  font-size: 16px;
+  color: #ccc;
+}
+
+.globe {
+  font-size: 48px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+nav a {
+  color: #f0f0f0;
+  text-decoration: none;
+  padding: 8px 12px;
+  background-color: #333;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+main {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.column {
+  flex: 1;
+  background-color: #1e1e1e;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.column h2 {
+  margin-top: 0;
+  color: #00bcd4;
+}
+
+.block {
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #00bcd4;
+  color: #121212;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0097a7;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #1e1e1e;
+  color: #aaa;
+}
