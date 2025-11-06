@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+
+}
+.box{
+    display: flex;
+}
+.column-first{
+    background-color: rgb(241, 234, 234);
+}
+
+.button{
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+
+}

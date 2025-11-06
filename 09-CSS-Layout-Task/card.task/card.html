@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Credit Card Form</title>
+  <link rel="stylesheet" href="card.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-top">
+        <img src="../assets/image/money.png" alt="Mastercard Logo" class="logo">
+      </div>
+      <div class="card-details">
+        <div class="card-number">5423</div>
+        <div class="card-name">JONDOE DONJOE</div>
+        <div class="card-expiry">12/12</div>
+      </div>
+    </div>
+
+    <form class="form">
+      <label>Card Number</label>
+      <input type="text" value="5423">
+
+      <label>Cardholder Name</label>
+      <input type="text" value="Jondoe Donjoe">
+
+      <label>Expiration Date</label>
+      <div class="expiry">
+        <input type="text" value="12" placeholder="MM">
+        <span>/</span>
+        <input type="text" value="12" placeholder="YY">
+      </div>
+
+      <label>CVV</label>
+      <input type="text" value="121">
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
